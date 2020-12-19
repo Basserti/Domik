@@ -1,8 +1,8 @@
 /*
  * Window.h
  *
- *  Created on: 25 нояб. 2020 г.
- *      Author: Лев
+ *  Created on: 25 пїЅпїЅпїЅпїЅ. 2020 пїЅ.
+ *      Author: пїЅпїЅпїЅ
  */
 #pragma once
 #ifndef WINDOW_H_
@@ -14,8 +14,8 @@
 class Window
 {
 public:
-	static constexpr int DEFAULT_WIDTH = 1920/2;
-	static constexpr int DEFAULT_HEIGHT = 1080/2;
+	static constexpr int DEFAULT_WIDTH = 1920;
+	static constexpr int DEFAULT_HEIGHT = 1080;
 protected:
 	std::shared_ptr<SDL_Window> _window;
 	std::shared_ptr<void> _gl_context;

@@ -26,6 +26,13 @@ protected:
 	double z2 { -0.05 };
 	double z3 { 0.6 };
 	double z_carrot { 0.65};
+	double x1 {  1   };
+	double x2 {  1   };
+	double x3 {  1.2 };
+	double y3 {  2.8 };
+	double y4 {  2.8 };
+	double y1 { -3   };
+	double y2 {  3   };
 
 	SimpleModel _cube = SimpleModel::create_cube();
 	Ground _ground = Ground::create_ground();

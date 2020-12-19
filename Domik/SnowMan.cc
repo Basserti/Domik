@@ -196,11 +196,11 @@ void draw_sphere(int cols, int rows)
 					y11, y12, y21, y22,
 					z11, z12, z21, z22,
 					xn, yn, zn;
-			sph2cart(0.35, phi1, theta1, x11, y11, z11);
-			sph2cart(0.35, phi1, theta2, x12, y12, z12);
-			sph2cart(0.35, phi2, theta1, x21, y21, z21);
-			sph2cart(0.35, phi2, theta2, x22, y22, z22);
-			sph2cart(0.35, phin, thetan, xn, yn, zn);
+			sph2cart(1, phi1, theta1, x11, y11, z11);
+			sph2cart(1, phi1, theta2, x12, y12, z12);
+			sph2cart(1, phi2, theta1, x21, y21, z21);
+			sph2cart(1, phi2, theta2, x22, y22, z22);
+			sph2cart(1, phin, thetan, xn, yn, zn);
 
 			glNormal3d(xn, yn, zn);
 			glVertex3d(x11, y11, z11);
